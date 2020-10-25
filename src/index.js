@@ -43,4 +43,4 @@ module.exports = function toReadable (number) {
     else return `${vocabulary[Math.floor(number / 10) * 10]} ${vocabulary[number % 10]}`.trimRight();
   }
   
-}
+
